@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/schpean/testing.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[user]
+	name = schpean
+	email = mateas.bogdan@gmail.com
+[pull]
+	rebase = true
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main

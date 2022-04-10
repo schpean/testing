@@ -6,13 +6,14 @@ read user
 
 echo -n "Your email address: "
 read email
+_user=$(user)
+_email=$(email)
 
-git config --global user.name $user
-git config --global user.email $email
+git config --global user.name $_user
+git config --global user.email $_email
 chmod 777 *
 _pwd=$(pwd)
 
-#cp -r /home/schpean/Desktop/Question4/.git/config /home/schpean/Desktop/Question4
 cp -r "$_pwd/.git/config" .
 chmod 777 *
 git add .

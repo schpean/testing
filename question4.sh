@@ -13,7 +13,7 @@ chmod 777 *
 _pwd=$(pwd)
 
 #cp -r /home/schpean/Desktop/Question4/.git/config /home/schpean/Desktop/Question4
-cp -r "_pwd/.git/config" .
+cp -r "$_pwd/.git/config" .
 chmod 777 *
 git add .
 git commit -m "$email and $user"

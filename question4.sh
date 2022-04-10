@@ -12,7 +12,7 @@ git config --global user.email $email
 chmod 777 *
 source= "/home/schpean/Desktop/Question4/.git/config"
 
-cp -r $pwd'/.git/config' '$pwd' #/home/schpean/Desktop/Question4
+cp -r "{$pwd}/.git/config" "{$pwd}" #/home/schpean/Desktop/Question4
 chmod 777 *
 git add .
 git commit -m "$email and $user"

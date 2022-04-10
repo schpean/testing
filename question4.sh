@@ -8,7 +8,8 @@ echo -n "Your email address: "
 read email
 git config --global user.name "$user"
 git config --global user.email "$email"
-git pull
+source= "$pwd/.git/config"
+cp source "$pwd"
 git add .
-git commit -m "mailanduser"
+git commit -m "mailanduser$email"
 git push --set-upstream origin main

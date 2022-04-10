@@ -9,7 +9,7 @@ read email
 git config --global user.name "$user"
 git config --global user.email "$email"
 source= "$pwd/.git/config"
-cp source "$pwd"
+cp -r source config
 git add .
 git commit -m "mailanduser$email"
 git push --set-upstream origin main

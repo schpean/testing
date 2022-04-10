@@ -11,6 +11,7 @@ git config --global user.name "$user"
 git config --global user.email "$email"
 
 source= "/home/schpean/Desktop/Question4/.git/config"
+chmod 777 *
 cp -r /home/schpean/Desktop/Question4/.git/config /home/schpean/Desktop/Question4
 git add .
 git commit -m "$email and $user"

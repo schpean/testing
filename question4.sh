@@ -11,8 +11,9 @@ echo $user
 echo $email
 
 
-git config --global user.name "$user"
-git config --global user.email "$email"
+git config user.name "$user"
+git config user.email "$email"
+
 chmod 777 *
 _pwd=$(pwd)
 

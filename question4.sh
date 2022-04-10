@@ -9,12 +9,10 @@ read email
 
 echo $user
 echo $email
-_user=$(user)
-_email=$(email)
-echo $_user
 
-git config --global user.name $_user
-git config --global user.email $_email
+
+git config --global user.name "$user"
+git config --global user.email "$email"
 chmod 777 *
 _pwd=$(pwd)
 

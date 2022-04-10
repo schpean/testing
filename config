@@ -7,8 +7,8 @@
 	url = https://github.com/schpean/testing.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [user]
-	name = SomeRandomUser
-	email = randomemail@gmail.com
+	name = mihmariusbogdan@gmail.com
+	email = mihmariusbogdan@gmail.com
 [pull]
 	rebase = true
 [branch "main"]

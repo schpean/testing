@@ -11,7 +11,7 @@ git config --global user.name "$user"
 git config --global user.email "$email"
 
 source= "$pwd/.git/config"
-cp -r source config
+cp -r $source config
 git add .
 git commit -m "$email and $user"
 git push --set-upstream origin main

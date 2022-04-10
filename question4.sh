@@ -7,8 +7,8 @@ read user
 echo -n "Your email address: "
 read email
 
-git config --global user.name "$user"
-git config --global user.email "$email"
+git config --global user.name $user
+git config --global user.email $email
 
 source= "/home/schpean/Desktop/Question4/.git/config"
 chmod 777 *

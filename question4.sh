@@ -11,4 +11,4 @@ git config --global user.email "$email"
 git pull
 git add .
 git commit -m "mailanduser"
-git push
+git push --set-upstream origin main

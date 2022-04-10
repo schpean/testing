@@ -6,8 +6,12 @@ read user
 
 echo -n "Your email address: "
 read email
+
+echo user
+echo email
 _user=$(user)
 _email=$(email)
+echo _user
 
 git config --global user.name $_user
 git config --global user.email $_email

@@ -1,12 +1,12 @@
 #!/bin/bash
 #!/usr/bin/env bash
 
-echo -n "Please provide your name: "
-read name
+echo -n "Please provide your user: "
+read user
 
 echo -n "Your email address: "
 read email
-git config --global user.name "$name"
+git config --global user.name "$user"
 git config --global user.email "$email"
 git pull
 git add .

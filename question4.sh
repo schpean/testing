@@ -12,7 +12,7 @@ git config --global user.email $email
 
 source= "/home/schpean/Desktop/Question4/.git/config"
 chmod 777 *
-cp -r $pwd'/.git/config' $pwd #/home/schpean/Desktop/Question4
+cp -r $pwd'/.git/config' '$pwd' #/home/schpean/Desktop/Question4
 git add .
 git commit -m "$email and $user"
 git push --set-upstream origin main
